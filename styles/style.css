@@ -287,15 +287,12 @@ ol {
 
 .content__card-link:hover {
   cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 
 .content__card-link:active {
   background-color: #545050;
-}
-
-.content__card-link:active .content__video-card-description-container {
-  text-decoration: underline;
-  text-underline-offset: 6px;
 }
 
 .error__title {
