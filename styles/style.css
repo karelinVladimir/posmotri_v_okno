@@ -39,19 +39,19 @@ ol {
 
 .content {
   display: flex;
+  margin: auto;
   align-items: center;
   width: 1140px;
-  min-height: 800px;
-  margin: auto;
+  height: 100%;
   column-gap: 30px;
 }
 
 .result {
   display: flex;
   flex-direction: column;
-  min-height: 456px;
+  row-gap: 16px;
   justify-content: space-between;
-  margin-top: 75px;
+  margin-top: 76px;
 }
 
 .visually-hidden {
@@ -81,7 +81,7 @@ ol {
 .result__video-container {
   position: relative;
   width: 711px;
-  height: 389px;
+  height: 386px;
 }
 
 .result__video {
@@ -183,8 +183,10 @@ ol {
 }
 
 .content__details {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
   height: 100%;
+  justify-content: center;
 }
 
 .title {
